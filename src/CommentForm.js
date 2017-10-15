@@ -14,15 +14,11 @@ class CommentForm extends Component {
     }
 
     handleAuthorChange(e) {
-        this.setState({
-            author: e.target.value
-        });
+        this.setState({author: e.target.value});
     }
     
     handleTextChange(e) {
-        this.setState({
-            text: e.target.value
-        });
+        this.setState({text: e.target.value});
     }
     
     handleSubmit(e) {
